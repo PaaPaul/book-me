@@ -9,8 +9,8 @@ create table if not exists public.bookings (
   contact text not null,
   special_request text,
   google_event_id text,
-  status text default 'confirmed',
-  created_at timestamp default now()
+  status text not null default 'confirmed',
+  created_at timestamptz not null default now()
 );
 
 alter table public.bookings enable row level security;
