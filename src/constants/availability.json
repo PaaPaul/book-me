@@ -1,0 +1,16 @@
+{
+  "weekdayRange": {
+    "label": "18:30",
+    "startTime": "18:30",
+    "durationMinutes": 150
+  },
+  "weekendStartTime": "12:00",
+  "weekendEndTime": "23:00",
+  "weekendSlotIntervalMinutes": 180,
+  "weekendEventDurationMinutes": 180,
+  "blockedDates": ["2026-08-10", "2026-08-17"],
+  "blockedTimes": {
+    "2026-08-12": ["18:30"],
+    "2026-08-15": ["21:00"]
+  }
+}
